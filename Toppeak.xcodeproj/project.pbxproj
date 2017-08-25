@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53F88501F2F79030024DA03 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88351F2F79030024DA03 /* background.png */; };
+		C53F88511F2F79030024DA03 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88361F2F79030024DA03 /* background@2x.png */; };
+		C53F88521F2F79030024DA03 /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88371F2F79030024DA03 /* background@3x.png */; };
+		C53F88531F2F79030024DA03 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88381F2F79030024DA03 /* fire.png */; };
+		C53F88541F2F79030024DA03 /* fire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88391F2F79030024DA03 /* fire@2x.png */; };
+		C53F88551F2F79030024DA03 /* fire@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F883A1F2F79030024DA03 /* fire@3x.png */; };
+		C53F88561F2F79030024DA03 /* missile-type-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F883B1F2F79030024DA03 /* missile-type-1.png */; };
+		C53F88571F2F79030024DA03 /* missile-type-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F883C1F2F79030024DA03 /* missile-type-1@2x.png */; };
+		C53F88581F2F79030024DA03 /* missile-type-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F883D1F2F79030024DA03 /* missile-type-1@3x.png */; };
+		C53F88591F2F79030024DA03 /* missile-type-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F883E1F2F79030024DA03 /* missile-type-2.png */; };
+		C53F885A1F2F79030024DA03 /* missile-type-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F883F1F2F79030024DA03 /* missile-type-2@2x.png */; };
+		C53F885B1F2F79030024DA03 /* missile-type-2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88401F2F79030024DA03 /* missile-type-2@3x.png */; };
+		C53F885C1F2F79030024DA03 /* missile-type-3.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88411F2F79030024DA03 /* missile-type-3.png */; };
+		C53F885D1F2F79030024DA03 /* missile-type-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88421F2F79030024DA03 /* missile-type-3@2x.png */; };
+		C53F885E1F2F79030024DA03 /* missile-type-3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88431F2F79030024DA03 /* missile-type-3@3x.png */; };
+		C53F885F1F2F79030024DA03 /* missile1.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88441F2F79030024DA03 /* missile1.png */; };
+		C53F88601F2F79030024DA03 /* missile1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88451F2F79030024DA03 /* missile1@2x.png */; };
+		C53F88611F2F79030024DA03 /* missile1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88461F2F79030024DA03 /* missile1@3x.png */; };
+		C53F88621F2F79030024DA03 /* missile2.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88471F2F79030024DA03 /* missile2.png */; };
+		C53F88631F2F79030024DA03 /* missile2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88481F2F79030024DA03 /* missile2@2x.png */; };
+		C53F88641F2F79030024DA03 /* missile2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F88491F2F79030024DA03 /* missile2@3x.png */; };
+		C53F88651F2F79030024DA03 /* missile3.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F884A1F2F79030024DA03 /* missile3.png */; };
+		C53F88661F2F79030024DA03 /* missile3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F884B1F2F79030024DA03 /* missile3@2x.png */; };
+		C53F88671F2F79030024DA03 /* missile3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F884C1F2F79030024DA03 /* missile3@3x.png */; };
+		C53F88681F2F79030024DA03 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F884D1F2F79030024DA03 /* plane.png */; };
+		C53F88691F2F79030024DA03 /* plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F884E1F2F79030024DA03 /* plane@2x.png */; };
+		C53F886A1F2F79030024DA03 /* plane@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C53F884F1F2F79030024DA03 /* plane@3x.png */; };
+		C549736E1F30D25700C972A1 /* BaseMissile.m in Sources */ = {isa = PBXBuildFile; fileRef = C549736D1F30D25700C972A1 /* BaseMissile.m */; };
+		C5868C5C1F317F9A00C933D2 /* Davincci.m in Sources */ = {isa = PBXBuildFile; fileRef = C5868C561F317F9A00C933D2 /* Davincci.m */; };
+		C5868C5D1F317F9A00C933D2 /* Bacon.m in Sources */ = {isa = PBXBuildFile; fileRef = C5868C581F317F9A00C933D2 /* Bacon.m */; };
+		C5868C5E1F317F9A00C933D2 /* NewTon.m in Sources */ = {isa = PBXBuildFile; fileRef = C5868C5B1F317F9A00C933D2 /* NewTon.m */; };
+		C58D58351F2E44F400778F5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D58341F2E44F400778F5F /* main.m */; };
+		C58D58381F2E44F400778F5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D58371F2E44F400778F5F /* AppDelegate.m */; };
+		C58D583A1F2E44F400778F5F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C58D58391F2E44F400778F5F /* GameScene.sks */; };
+		C58D583C1F2E44F400778F5F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C58D583B1F2E44F400778F5F /* Actions.sks */; };
+		C58D583F1F2E44F400778F5F /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D583E1F2E44F400778F5F /* GameScene.m */; };
+		C58D58421F2E44F400778F5F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D58411F2E44F400778F5F /* GameViewController.m */; };
+		C58D58451F2E44F400778F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58D58431F2E44F400778F5F /* Main.storyboard */; };
+		C58D58471F2E44F400778F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58D58461F2E44F400778F5F /* Assets.xcassets */; };
+		C58D584A1F2E44F400778F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58D58481F2E44F400778F5F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C53F88351F2F79030024DA03 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Toppeak/Resources/background.png; sourceTree = "<group>"; };
+		C53F88361F2F79030024DA03 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Toppeak/Resources/background@2x.png"; sourceTree = "<group>"; };
+		C53F88371F2F79030024DA03 /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@3x.png"; path = "Toppeak/Resources/background@3x.png"; sourceTree = "<group>"; };
+		C53F88381F2F79030024DA03 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Toppeak/Resources/fire.png; sourceTree = "<group>"; };
+		C53F88391F2F79030024DA03 /* fire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fire@2x.png"; path = "Toppeak/Resources/fire@2x.png"; sourceTree = "<group>"; };
+		C53F883A1F2F79030024DA03 /* fire@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fire@3x.png"; path = "Toppeak/Resources/fire@3x.png"; sourceTree = "<group>"; };
+		C53F883B1F2F79030024DA03 /* missile-type-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-1.png"; path = "Toppeak/Resources/missile-type-1.png"; sourceTree = "<group>"; };
+		C53F883C1F2F79030024DA03 /* missile-type-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-1@2x.png"; path = "Toppeak/Resources/missile-type-1@2x.png"; sourceTree = "<group>"; };
+		C53F883D1F2F79030024DA03 /* missile-type-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-1@3x.png"; path = "Toppeak/Resources/missile-type-1@3x.png"; sourceTree = "<group>"; };
+		C53F883E1F2F79030024DA03 /* missile-type-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-2.png"; path = "Toppeak/Resources/missile-type-2.png"; sourceTree = "<group>"; };
+		C53F883F1F2F79030024DA03 /* missile-type-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-2@2x.png"; path = "Toppeak/Resources/missile-type-2@2x.png"; sourceTree = "<group>"; };
+		C53F88401F2F79030024DA03 /* missile-type-2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-2@3x.png"; path = "Toppeak/Resources/missile-type-2@3x.png"; sourceTree = "<group>"; };
+		C53F88411F2F79030024DA03 /* missile-type-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-3.png"; path = "Toppeak/Resources/missile-type-3.png"; sourceTree = "<group>"; };
+		C53F88421F2F79030024DA03 /* missile-type-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-3@2x.png"; path = "Toppeak/Resources/missile-type-3@2x.png"; sourceTree = "<group>"; };
+		C53F88431F2F79030024DA03 /* missile-type-3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile-type-3@3x.png"; path = "Toppeak/Resources/missile-type-3@3x.png"; sourceTree = "<group>"; };
+		C53F88441F2F79030024DA03 /* missile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missile1.png; path = Toppeak/Resources/missile1.png; sourceTree = "<group>"; };
+		C53F88451F2F79030024DA03 /* missile1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile1@2x.png"; path = "Toppeak/Resources/missile1@2x.png"; sourceTree = "<group>"; };
+		C53F88461F2F79030024DA03 /* missile1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile1@3x.png"; path = "Toppeak/Resources/missile1@3x.png"; sourceTree = "<group>"; };
+		C53F88471F2F79030024DA03 /* missile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missile2.png; path = Toppeak/Resources/missile2.png; sourceTree = "<group>"; };
+		C53F88481F2F79030024DA03 /* missile2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile2@2x.png"; path = "Toppeak/Resources/missile2@2x.png"; sourceTree = "<group>"; };
+		C53F88491F2F79030024DA03 /* missile2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile2@3x.png"; path = "Toppeak/Resources/missile2@3x.png"; sourceTree = "<group>"; };
+		C53F884A1F2F79030024DA03 /* missile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = missile3.png; path = Toppeak/Resources/missile3.png; sourceTree = "<group>"; };
+		C53F884B1F2F79030024DA03 /* missile3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile3@2x.png"; path = "Toppeak/Resources/missile3@2x.png"; sourceTree = "<group>"; };
+		C53F884C1F2F79030024DA03 /* missile3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "missile3@3x.png"; path = "Toppeak/Resources/missile3@3x.png"; sourceTree = "<group>"; };
+		C53F884D1F2F79030024DA03 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane.png; path = Toppeak/Resources/plane.png; sourceTree = "<group>"; };
+		C53F884E1F2F79030024DA03 /* plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plane@2x.png"; path = "Toppeak/Resources/plane@2x.png"; sourceTree = "<group>"; };
+		C53F884F1F2F79030024DA03 /* plane@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plane@3x.png"; path = "Toppeak/Resources/plane@3x.png"; sourceTree = "<group>"; };
+		C549736C1F30D25700C972A1 /* BaseMissile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseMissile.h; path = Toppeak/Model/BaseMissile.h; sourceTree = "<group>"; };
+		C549736D1F30D25700C972A1 /* BaseMissile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseMissile.m; path = Toppeak/Model/BaseMissile.m; sourceTree = "<group>"; };
+		C5868C551F317F4500C933D2 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Definitions.h; path = Toppeak/Definitions.h; sourceTree = "<group>"; };
+		C5868C561F317F9A00C933D2 /* Davincci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Davincci.m; path = Toppeak/Model/Davincci.m; sourceTree = "<group>"; };
+		C5868C571F317F9A00C933D2 /* Bacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bacon.h; path = Toppeak/Model/Bacon.h; sourceTree = "<group>"; };
+		C5868C581F317F9A00C933D2 /* Bacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bacon.m; path = Toppeak/Model/Bacon.m; sourceTree = "<group>"; };
+		C5868C591F317F9A00C933D2 /* Davincci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Davincci.h; path = Toppeak/Model/Davincci.h; sourceTree = "<group>"; };
+		C5868C5A1F317F9A00C933D2 /* NewTon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewTon.h; path = Toppeak/Model/NewTon.h; sourceTree = "<group>"; };
+		C5868C5B1F317F9A00C933D2 /* NewTon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewTon.m; path = Toppeak/Model/NewTon.m; sourceTree = "<group>"; };
+		C58D58301F2E44F400778F5F /* Toppeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toppeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58D58341F2E44F400778F5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C58D58361F2E44F400778F5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C58D58371F2E44F400778F5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C58D58391F2E44F400778F5F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C58D583B1F2E44F400778F5F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C58D583D1F2E44F400778F5F /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C58D583E1F2E44F400778F5F /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		C58D58401F2E44F400778F5F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C58D58411F2E44F400778F5F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C58D58441F2E44F400778F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C58D58461F2E44F400778F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C58D58491F2E44F400778F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C58D584B1F2E44F400778F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C58D582D1F2E44F400778F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53F88341F2F78B30024DA03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C53F88351F2F79030024DA03 /* background.png */,
+				C53F88361F2F79030024DA03 /* background@2x.png */,
+				C53F88371F2F79030024DA03 /* background@3x.png */,
+				C53F88381F2F79030024DA03 /* fire.png */,
+				C53F88391F2F79030024DA03 /* fire@2x.png */,
+				C53F883A1F2F79030024DA03 /* fire@3x.png */,
+				C53F883B1F2F79030024DA03 /* missile-type-1.png */,
+				C53F883C1F2F79030024DA03 /* missile-type-1@2x.png */,
+				C53F883D1F2F79030024DA03 /* missile-type-1@3x.png */,
+				C53F883E1F2F79030024DA03 /* missile-type-2.png */,
+				C53F883F1F2F79030024DA03 /* missile-type-2@2x.png */,
+				C53F88401F2F79030024DA03 /* missile-type-2@3x.png */,
+				C53F88411F2F79030024DA03 /* missile-type-3.png */,
+				C53F88421F2F79030024DA03 /* missile-type-3@2x.png */,
+				C53F88431F2F79030024DA03 /* missile-type-3@3x.png */,
+				C53F88441F2F79030024DA03 /* missile1.png */,
+				C53F88451F2F79030024DA03 /* missile1@2x.png */,
+				C53F88461F2F79030024DA03 /* missile1@3x.png */,
+				C53F88471F2F79030024DA03 /* missile2.png */,
+				C53F88481F2F79030024DA03 /* missile2@2x.png */,
+				C53F88491F2F79030024DA03 /* missile2@3x.png */,
+				C53F884A1F2F79030024DA03 /* missile3.png */,
+				C53F884B1F2F79030024DA03 /* missile3@2x.png */,
+				C53F884C1F2F79030024DA03 /* missile3@3x.png */,
+				C53F884D1F2F79030024DA03 /* plane.png */,
+				C53F884E1F2F79030024DA03 /* plane@2x.png */,
+				C53F884F1F2F79030024DA03 /* plane@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C549736B1F30CE3200C972A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C549736C1F30D25700C972A1 /* BaseMissile.h */,
+				C549736D1F30D25700C972A1 /* BaseMissile.m */,
+				C5868C571F317F9A00C933D2 /* Bacon.h */,
+				C5868C581F317F9A00C933D2 /* Bacon.m */,
+				C5868C591F317F9A00C933D2 /* Davincci.h */,
+				C5868C561F317F9A00C933D2 /* Davincci.m */,
+				C5868C5A1F317F9A00C933D2 /* NewTon.h */,
+				C5868C5B1F317F9A00C933D2 /* NewTon.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C58D58271F2E44F400778F5F = {
+			isa = PBXGroup;
+			children = (
+				C5868C551F317F4500C933D2 /* Definitions.h */,
+				C549736B1F30CE3200C972A1 /* Model */,
+				C53F88341F2F78B30024DA03 /* Resources */,
+				C58D58321F2E44F400778F5F /* Toppeak */,
+				C58D58311F2E44F400778F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C58D58311F2E44F400778F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C58D58301F2E44F400778F5F /* Toppeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58D58321F2E44F400778F5F /* Toppeak */ = {
+			isa = PBXGroup;
+			children = (
+				C58D58361F2E44F400778F5F /* AppDelegate.h */,
+				C58D58371F2E44F400778F5F /* AppDelegate.m */,
+				C58D58391F2E44F400778F5F /* GameScene.sks */,
+				C58D583B1F2E44F400778F5F /* Actions.sks */,
+				C58D583D1F2E44F400778F5F /* GameScene.h */,
+				C58D583E1F2E44F400778F5F /* GameScene.m */,
+				C58D58401F2E44F400778F5F /* GameViewController.h */,
+				C58D58411F2E44F400778F5F /* GameViewController.m */,
+				C58D58431F2E44F400778F5F /* Main.storyboard */,
+				C58D58461F2E44F400778F5F /* Assets.xcassets */,
+				C58D58481F2E44F400778F5F /* LaunchScreen.storyboard */,
+				C58D584B1F2E44F400778F5F /* Info.plist */,
+				C58D58331F2E44F400778F5F /* Supporting Files */,
+			);
+			path = Toppeak;
+			sourceTree = "<group>";
+		};
+		C58D58331F2E44F400778F5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58D58341F2E44F400778F5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C58D582F1F2E44F400778F5F /* Toppeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58D584E1F2E44F400778F5F /* Build configuration list for PBXNativeTarget "Toppeak" */;
+			buildPhases = (
+				C58D582C1F2E44F400778F5F /* Sources */,
+				C58D582D1F2E44F400778F5F /* Frameworks */,
+				C58D582E1F2E44F400778F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toppeak;
+			productName = Toppeak;
+			productReference = C58D58301F2E44F400778F5F /* Toppeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C58D58281F2E44F400778F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Taiwan Mobile Co.,";
+				TargetAttributes = {
+					C58D582F1F2E44F400778F5F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 796XALWJ7W;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C58D582B1F2E44F400778F5F /* Build configuration list for PBXProject "Toppeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C58D58271F2E44F400778F5F;
+			productRefGroup = C58D58311F2E44F400778F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58D582F1F2E44F400778F5F /* Toppeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C58D582E1F2E44F400778F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53F88591F2F79030024DA03 /* missile-type-2.png in Resources */,
+				C53F88691F2F79030024DA03 /* plane@2x.png in Resources */,
+				C53F88671F2F79030024DA03 /* missile3@3x.png in Resources */,
+				C53F88681F2F79030024DA03 /* plane.png in Resources */,
+				C53F88641F2F79030024DA03 /* missile2@3x.png in Resources */,
+				C58D58451F2E44F400778F5F /* Main.storyboard in Resources */,
+				C53F88501F2F79030024DA03 /* background.png in Resources */,
+				C53F88531F2F79030024DA03 /* fire.png in Resources */,
+				C53F88661F2F79030024DA03 /* missile3@2x.png in Resources */,
+				C58D583A1F2E44F400778F5F /* GameScene.sks in Resources */,
+				C53F885B1F2F79030024DA03 /* missile-type-2@3x.png in Resources */,
+				C53F88561F2F79030024DA03 /* missile-type-1.png in Resources */,
+				C53F885D1F2F79030024DA03 /* missile-type-3@2x.png in Resources */,
+				C53F885A1F2F79030024DA03 /* missile-type-2@2x.png in Resources */,
+				C53F88631F2F79030024DA03 /* missile2@2x.png in Resources */,
+				C53F885F1F2F79030024DA03 /* missile1.png in Resources */,
+				C53F88651F2F79030024DA03 /* missile3.png in Resources */,
+				C53F885C1F2F79030024DA03 /* missile-type-3.png in Resources */,
+				C53F88551F2F79030024DA03 /* fire@3x.png in Resources */,
+				C53F88511F2F79030024DA03 /* background@2x.png in Resources */,
+				C53F885E1F2F79030024DA03 /* missile-type-3@3x.png in Resources */,
+				C58D58471F2E44F400778F5F /* Assets.xcassets in Resources */,
+				C53F88621F2F79030024DA03 /* missile2.png in Resources */,
+				C53F88581F2F79030024DA03 /* missile-type-1@3x.png in Resources */,
+				C53F88541F2F79030024DA03 /* fire@2x.png in Resources */,
+				C58D584A1F2E44F400778F5F /* LaunchScreen.storyboard in Resources */,
+				C53F886A1F2F79030024DA03 /* plane@3x.png in Resources */,
+				C58D583C1F2E44F400778F5F /* Actions.sks in Resources */,
+				C53F88521F2F79030024DA03 /* background@3x.png in Resources */,
+				C53F88611F2F79030024DA03 /* missile1@3x.png in Resources */,
+				C53F88571F2F79030024DA03 /* missile-type-1@2x.png in Resources */,
+				C53F88601F2F79030024DA03 /* missile1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C58D582C1F2E44F400778F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5868C5C1F317F9A00C933D2 /* Davincci.m in Sources */,
+				C5868C5D1F317F9A00C933D2 /* Bacon.m in Sources */,
+				C58D58421F2E44F400778F5F /* GameViewController.m in Sources */,
+				C58D58381F2E44F400778F5F /* AppDelegate.m in Sources */,
+				C58D583F1F2E44F400778F5F /* GameScene.m in Sources */,
+				C549736E1F30D25700C972A1 /* BaseMissile.m in Sources */,
+				C5868C5E1F317F9A00C933D2 /* NewTon.m in Sources */,
+				C58D58351F2E44F400778F5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C58D58431F2E44F400778F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58D58441F2E44F400778F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C58D58481F2E44F400778F5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58D58491F2E44F400778F5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C58D584C1F2E44F400778F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C58D584D1F2E44F400778F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C58D584F1F2E44F400778F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Toppeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanmobile.SpaceShooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		C58D58501F2E44F400778F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Toppeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiwanmobile.SpaceShooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C58D582B1F2E44F400778F5F /* Build configuration list for PBXProject "Toppeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58D584C1F2E44F400778F5F /* Debug */,
+				C58D584D1F2E44F400778F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58D584E1F2E44F400778F5F /* Build configuration list for PBXNativeTarget "Toppeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58D584F1F2E44F400778F5F /* Debug */,
+				C58D58501F2E44F400778F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C58D58281F2E44F400778F5F /* Project object */;
+}
